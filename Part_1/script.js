@@ -48,7 +48,6 @@ class RatingWidget extends HTMLElement {
                 }
 
                 output{
-                    // padding: 1em;
                     margin-bottom: 1em;
                     display: none;
                 }

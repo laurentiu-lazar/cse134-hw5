@@ -1,0 +1,9 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+current-weather{
+    --text-color: black;
+    --background-color: #A7C7E7;
+}
