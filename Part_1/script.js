@@ -18,6 +18,9 @@ class RatingWidget extends HTMLElement {
                     transition: height 1s;
 
                     text-align: center;
+
+                    color: var(--text-color, black);
+                    background-color: var(--background-color, white);
                 }
                 .star{
                     font-size:2em;
@@ -35,13 +38,13 @@ class RatingWidget extends HTMLElement {
                 #rating span{
                     flex-grow:1;
                     // border:1px solid blue;
-                    color:gray;
+                    color: var(--star-inactive, gray);
                 }
                 #rating:hover span:not(:hover ~span){ /* */
-                    color:black;
+                    color: var(--star-hover, black);
                 }
                 #rating:active span:not(:hover ~span){
-                    color:yellow;
+                    color: var(--star-active, yellow);
                 }
 
                 output{

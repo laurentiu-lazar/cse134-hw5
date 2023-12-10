@@ -2,3 +2,13 @@ main{
     display: flex;
     justify-content: center;
 }
+
+rating-widget{
+    --text-color: black;
+
+    --star-inactive: black;
+    --star-hover: #FFFFE0;
+    --star-active: yellow;
+
+    --background-color: #A7C7E7;
+}
